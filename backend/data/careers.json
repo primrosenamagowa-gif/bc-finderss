@@ -1,0 +1,86 @@
+[
+  {
+    "career": "Software Developer",
+    "subjects": ["Mathematics", "Physical Science"],
+    "skills": ["Programming", "Problem Solving", "Logical Thinking"],
+    "qualification": "Diploma or Degree in Software Development"
+  },
+
+  {
+    "career": "Data Scientist",
+    "subjects": ["Mathematics"],
+    "skills": ["Python", "Statistics", "Data Analysis"],
+    "qualification": "Degree in Data Science"
+  },
+
+  {
+    "career": "Network Engineer",
+    "subjects": ["Mathematics"],
+    "skills": ["Networking", "Cybersecurity", "Troubleshooting"],
+    "qualification": "Diploma or Degree in Networking"
+  },
+
+  {
+    "career": "Cloud Engineer",
+    "subjects": ["Mathematics", "Information Technology"],
+    "skills": ["AWS", "Azure", "Linux", "Networking"],
+    "qualification": "Diploma or Degree in Cloud Computing"
+  },
+
+  {
+    "career": "Cybersecurity Analyst",
+    "subjects": ["Mathematics", "Computer Applications Technology"],
+    "skills": ["Networking", "Security", "Linux"],
+    "qualification": "Diploma in Cybersecurity"
+  },
+
+  {
+    "career": "Database Administrator",
+    "subjects": ["Mathematics"],
+    "skills": ["SQL", "Database Design", "Data Management"],
+    "qualification": "Diploma or Degree in Database Administration"
+  },
+
+  {
+    "career": "Web Developer",
+    "subjects": ["Mathematics"],
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "qualification": "Diploma or Degree in Web Development"
+  },
+
+  {
+    "career": "AI Engineer",
+    "subjects": ["Mathematics", "Physical Science"],
+    "skills": ["Machine Learning", "Python", "AI Models"],
+    "qualification": "Degree in Artificial Intelligence"
+  },
+
+  {
+    "career": "Systems Administrator",
+    "subjects": ["Mathematics"],
+    "skills": ["Windows Server", "Linux", "Networking"],
+    "qualification": "Diploma in Systems Administration"
+  },
+
+  {
+    "career": "UX Designer",
+    "subjects": ["Design", "Mathematics"],
+    "skills": ["UI Design", "User Research", "Creativity"],
+    "qualification": "Diploma in UX Design"
+  },
+    
+  {
+    "career": "Software Developer",
+    "sbjects": ["Mathematics", "Physical Science"],
+    "skills": ["Programming", "Problem Solving", "Logical Thinking"],
+    "qualification": "Diploma or Degree in Software Development"
+  },
+  {
+    "career": "Data Scientist",
+    "subjects": ["Mathematics"],
+    "skills": ["Python", "Statistics", "Data Analysis"],
+    "qualification": "Degree in Data Science"
+  }
+
+]
+

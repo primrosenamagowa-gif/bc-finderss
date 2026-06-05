@@ -1,0 +1,70 @@
+[
+  {
+    "programme": "Higher Certificate in Information Technology",
+    "duration": "1 year",
+    "nqfLevel": "5",
+    "specializations": [
+      "Systems Development"
+    ]
+  },
+  {
+    "programme": "Higher Certificate in Information Technology",
+    "duration": "1 year",
+    "nqfLevel": "6",
+    "specializations": [
+      "Database Development"
+    ]
+  },
+  {
+    "programme": "Diploma in Information Technology",
+    "duration": "3 years",
+    "nqfLevel": "6",
+    "specializations": [
+      "Software Development",
+      "Infrastructure",
+      "Data Analytics",
+      "Business Systems"
+    ]
+  },
+  {
+    "programme": "Diploma in Information Technology (Deaf Students)",
+    "duration": "3 years",
+    "nqfLevel": "6",
+    "specializations": [
+      "Software Development"
+    ]
+  },
+  {
+    "programme": "Bachelor of Information Technology",
+    "duration": "3 years",
+    "nqfLevel": "7",
+    "specializations": [
+      "Software Development",
+      "Cloud Computing",
+      "Cybersecurity",
+      "Artificial Intelligence",
+      "Mobile and Web Development"
+    ]
+  },
+  {
+    "programme": "Part-Time Bachelor of Information Technology",
+    "duration": "Flexible",
+    "nqfLevel": "7",
+    "specializations": [
+      "Software Development"
+    ]
+  },
+  {
+    "programme": "Bachelor of Computing",
+    "duration": "4 years",
+    "nqfLevel": "8",
+    "specializations": [
+      "Software Engineering",
+      "Data Science",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Cloud Engineering",
+      "Cybersecurity"
+    ]
+  }
+]

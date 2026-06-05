@@ -1,0 +1,36 @@
+[
+  {
+    "field": "Software Development",
+    "description": "Designing and building software applications.",
+    "careers": [
+      "Software Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "Full Stack Developer",
+      "Mobile App Developer"
+    ],
+    "skills": [
+      "Programming",
+      "JavaScript",
+      "C#",
+      "Problem Solving",
+      "Databases"
+    ]
+  },
+  {
+    "field": "Database",
+    "description": "Managing and organizing data systems.",
+    "careers": [
+      "Database Administrator",
+      "SQL Developer",
+      "Database Developer",
+      "Data Analyst"
+    ],
+    "skills": [
+      "SQL",
+      "Database Design",
+      "Data Modelling",
+      "Data Management"
+    ]
+  }
+]

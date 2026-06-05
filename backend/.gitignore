@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment variables — NEVER upload these
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode
+.idea
+
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
