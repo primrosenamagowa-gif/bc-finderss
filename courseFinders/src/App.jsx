@@ -12,7 +12,7 @@ import APSCalculator from "./APSCalculator";
 import './styles/global.css';
 import './App.css';
 
-export default function App() {
+function ProtectedApp() {
   const { messages, isLoading, error, sendMessage, clearMessages } = useChat();
   const { history, activeChatId, addChat, setActive }              = useChatHistory();
   const chatBottomRef = useRef(null);
@@ -46,6 +46,11 @@ export default function App() {
     setActive(id);
   }, [setActive]);
 
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    window.location.reload();
+  };
+
   const showWelcome = messages.length === 0 && !isLoading;
 
   return (
@@ -55,19 +60,20 @@ export default function App() {
         activeChatId={activeChatId}
         onNewChat={handleNewChat}
         onSelectChat={handleSelectChat}
+        onLogout={handleLogout}
       />
       <div className="app-main">
         <TopBar
-  messageCount={messages.length}
-  onToggleAPS={() => setShowAPS(!showAPS)}
-/>
+          messageCount={messages.length}
+          onToggleAPS={() => setShowAPS(!showAPS)}
+        />
         <div className="app-chat-area" role="log" aria-live="polite" aria-label="Conversation">
           <div className="app-chat-inner">
             {showAPS && (
-  <div className="aps-dropdown">
-    <APSCalculator />
-  </div>
-)}
+              <div className="aps-dropdown">
+                <APSCalculator />
+              </div>
+            )}
             {showWelcome && <WelcomeScreen onSuggestionClick={handleSend} />}
             {messages.map((msg) => (
               <Message key={msg.id} role={msg.role} content={msg.content} />
@@ -87,4 +93,8 @@ export default function App() {
       </div>
     </div>
   );
+}
+
+export default function App() {
+  return <ProtectedApp />;
 }

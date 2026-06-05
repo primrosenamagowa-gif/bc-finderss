@@ -2,7 +2,7 @@ import React from 'react';
 import QRCode from 'react-qr-code';
 import './Sidebar.css';
 
-export default function Sidebar({ history, activeChatId, onNewChat, onSelectChat }) {
+export default function Sidebar({ history, activeChatId, onNewChat, onSelectChat, onLogout }) {
   return (
     <aside className="sidebar">
       <div className="sidebar__logo">
@@ -48,10 +48,25 @@ export default function Sidebar({ history, activeChatId, onNewChat, onSelectChat
         <div className="sidebar__footer-badge">
           <span className="sidebar__status-dot" />
           AI Agent Active
-        </div>        <div className="sidebar__qr">
-          <QRCode value="https://vercel.com/website11/bc-course-finderss/5VEKVJWVxgRG21bXZV1Xpi2ixXmQ" size={80} />
-        </div>        <p className="sidebar__footer-copy">Belgium Campus · v1.0</p>
+        </div>
+        <div className="sidebar__qr">
+          <QRCode value="https://bc-finderss-fznk.vercel.app/" size={80} />
+        </div>
+        <p className="sidebar__footer-copy">Belgium Campus · v1.0</p>
       </div>
     </aside>
   );
+  <button onClick={onLogout} style={{
+        margin: "0.5rem 1rem 1rem",
+        padding: "0.5rem",
+        backgroundColor: "transparent",
+        color: "#fff",
+        border: "1px solid rgba(255,255,255,0.3)",
+        borderRadius: "8px",
+        cursor: "pointer",
+        fontSize: "13px",
+        width: "calc(100% - 2rem)"
+      }}>
+        🚪 Logout
+      </button>
 }
